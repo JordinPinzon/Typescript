@@ -45,7 +45,7 @@ If you prefer to avoid manual installation and configuration, you can download a
 If you don't have Docker installed yet, download and install it from https://www.docker.com/
 2. Download the image
 Open your terminal and run the following command to download the Docker image:
-Docker pull jordin13/Python-app :nombreetiqueta
+Docker pull jordin13/typescript-app:nombre de etiqueta
 
 ## Build the image
 Run the following command to build your imagen:
