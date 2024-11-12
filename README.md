@@ -45,15 +45,11 @@ If you prefer to avoid manual installation and configuration, you can download a
 If you don't have Docker installed yet, download and install it from https://www.docker.com/
 2. Download the image
 Open your terminal and run the following command to download the Docker image:
-Docker pull jordin13/typescript-app:nombre de etiqueta
-
-## Build the image
-Run the following command to build your imagen:
-docker build -t react-ts-app .
+docker pull jordin13/javascript-app:latest
 
 ## Run the container
 Once the image is downloaded, run a container using the following command:
-docker run -d -p 3000:3000 jordinpinzon/typescript-hello-world
+docker run -d -p 3000:80 --name typescript-app jordin13/typescript-app:latest
 
 ## Access the Project
 Open your browser and go to http://localhost:3000. You should see the project running.
